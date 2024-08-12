@@ -1,0 +1,160 @@
+{
+    "wtm_full": {
+        "server": "172.16.225.5",
+        "username": "wtm_full",
+        "password": "54sdq13#",
+        "port":21
+    },
+    "ci_model":{
+        "server": "172.16.225.5",
+        "username": "oneooredoo.ftp",
+        "password": "N9Qnj1TL69tZtuOhDmHq",
+        "port":1908
+    },
+    "adm_device": {
+        "server": "172.16.225.5",
+        "username": "omv_full",
+        "password": "2z0XzGrmN9nvS",
+        "port":1908
+    },
+    "erp_task": {
+     "server": "172.16.225.5",
+     "username": "gu3st_3ft6",
+     "password": "wGBNFc-B47",
+     "port":1908
+   },
+    "vlr": {
+        "server": "172.24.23.138",
+        "username": "ITapps",
+        "password": "OMDC@2o23",
+        "port":21
+    },
+    "dms": {
+        "host": "10.10.94.71",
+        "username": "dwh",
+        "password": "Dhw@wtd163",
+        "database":"DMS",
+        "port":3306
+    },
+    "myplan": {
+        "host": "172.24.10.140",
+        "username": "datawarehouse",
+        "password": "Dwh123#",
+        "database":"Manta_DB",
+        "port":3306
+    },
+    "payment_gateway_self_care_order_queue":{
+        "host": "172.24.10.140",
+        "username": "datawarehouse",
+        "password": "Dwh123#",
+        "database":"self_care",
+        "port":3306
+   },
+   "payment_gateway_cypria_pg_order_queue":{
+        "host": "172.24.10.141",
+        "username": "datawarehouse",
+        "password": "Dwh123#",
+        "database":"cypria_pg",
+        "port":3306
+   },
+   "payment_gateway_mfaisa_gateway_order_queue":{
+        "host": "172.24.10.141",
+        "username": "datawarehouse",
+        "password": "Dwh123#",
+        "database":"mfaisa_gateway",
+        "port":3306
+   },
+   "payment_gateway_mib_gateway_order_queue":{
+        "host": "172.24.10.141",
+        "username": "datawarehouse",
+        "password": "Dwh123#",
+        "database":"MIB_gateway",
+        "port":3306
+   },
+   "payment_gateway_mib_mpgs_order_queue":{
+        "host": "172.24.10.141",
+        "username": "datawarehouse",
+        "password": "Dwh123#",
+        "database":"mib_mpgs",
+        "port":3306
+   },
+   "oracle_dwh":{
+        "host": "10.10.93.94",
+        "username": "dwhcloud",
+        "password": "DwhCld@9763fg",
+        "service_name":"DWH.OOREDOO.MV",
+        "port":1521
+   },
+   "niometrics":{
+        "server": "172.23.156.6",
+        "username": "cf_sftp",
+        "password": "Ogmdvftp2022#!",
+        "port":22
+   },
+   "vas":{
+        "host": "172.24.10.141",
+        "username": "datawarehouse",
+        "password": "Dwh123#",
+        "database":"etopup",
+        "port":3306
+   },
+   "molee":{
+        "host": "10.10.94.19",
+        "username": "dwh-integration",
+        "password": "2vY$l4&8A$33",
+        "database":"ecom_order",
+        "port":3306
+    },
+    "sitemaster":{
+        "host": "172.23.100.144",
+        "username": "dwh",
+        "password": "dwh@123",
+        "database":"RanData",
+        "port":3306
+   },
+   "mobile_money":{
+    "server": "10.10.93.154",
+    "username": "mfino_report",
+    "password": "FT16tj3Swy",
+    "port":1908
+   },
+    "app_prod":{
+    "host": "10.10.93.19",
+    "username": "appsql",
+    "password": "Sc2a2Yvf7MLmK46X",
+    "database":"kyc_v1",
+    "port":3306
+    },
+    "order_queue_new2":{
+     "host": "10.10.93.40",
+     "username": "dwh",
+     "password": "Dowr@um8765",
+     "database": "upg",
+     "port": 3306
+    },
+    "hlr_dump": {
+     "server": "10.10.93.154",
+     "username": "appsteam",
+     "password": "6DCIhZQ8cb",
+     "port":21
+ },
+  "subs_location_report":{
+     "server": "172.23.156.6",
+     "username": "cf_sftp",
+     "password": "Ogmdvftp2022#!",
+     "port":22
+  },"mail":
+  {
+    "smtp_server" : "smtp.office365.com",
+    "smtp_port" : 587,
+    "smtp_username" : "dwh.analytics@ooredoo.mv",
+    "smtp_password" : "pXQb9X.x",
+    "sender_email" : "dwh.analytics@ooredoo.mv"
+  },
+  "SSMS":{
+    "server" : "dwhprod-synapseanalytics-ondemand.sql.azuresynapse.net",
+    "database" :"omvdwhprod",
+    "username" : "sqluser@ooredoomv.onmicrosoft.com",
+    "password" :"0mvPr0j3ct2023"
+  }
+}
